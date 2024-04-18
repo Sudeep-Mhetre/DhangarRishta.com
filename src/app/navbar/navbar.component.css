@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+  }
+  .default-home {
+    font-weight: bold; /* Or any other styles to highlight */
+  }
+  
+  .custom-navbar {
+    background-color: #f7e868; /* This is the yellow golden light color */
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .custom-navbar .nav-links a {
+    color: #000; /* Adjust link color */
+  }
+  
+  .custom-navbar .nav-links a.active {
+    font-weight: bold; /* Style active link as needed */
+  }
+  
+  
+  .nav-links {
+    margin-left: auto; /* Pushes the links to the right */
+  }
+  
+  .nav-links a {
+    margin-left: 20px; /* Adjust as needed */
+    text-decoration: none; /* Removes default underline */
+    color: black; /* Change color as needed */
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
