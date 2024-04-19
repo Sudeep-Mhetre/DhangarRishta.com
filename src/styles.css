@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'assets/css/bootstrap.css';
+@import 'assets/css/style.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css';
+@import "~intl-tel-input/build/css/intlTelInput.css";
+
+
+@font-face {
+    font-family: BrushScriptStd;
+    src: url("../src/assets/fonts/brush-script-std/BrushScriptStd.otf");
+}
+@font-face {
+    font-family: kalamB;
+    src: url("../src/assets/fonts/Kalam/Kalam-Bold.ttf");
+}
+
+@font-face {
+    font-family: YatraOne-Regular;
+    src: url("../src/assets/fonts/Yatra_One/YatraOne-Regular.ttf");
+}

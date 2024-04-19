@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<API3G>
+  <CompanyToken>58444E08-5BFE-46A7-AB97-5429838648C1</CompanyToken>
+  <Request>verifyToken</Request>
+  <TransactionToken>44DA042D-6753-455B-BB8B-E2E5E89F541A</TransactionToken>
+</API3G>

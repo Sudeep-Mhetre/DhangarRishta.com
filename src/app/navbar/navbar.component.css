@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+  }
+  .default-home {
+    font-weight: bold; /* Or any other styles to highlight */
+  }
+  
+  .custom-navbar {
+    background-color: #f7e868; /* This is the yellow golden light color */
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .custom-navbar .nav-links a {
+    color: #000; /* Adjust link color */
+  }
+  
+  .custom-navbar .nav-links a.active {
+    font-weight: bold; /* Style active link as needed */
+  }
+  
+  
+  .nav-links {
+    margin: 0.6em 1.4em;
+    margin-left: auto;
+  }
+  
+  .nav-links a {
+    margin-left: 20px; /* Adjust as needed */
+    text-decoration: none; /* Removes default underline */
+    color: black; /* Change color as needed */
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+
+  .main-header {
+    margin: 0 !important;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    z-index: 2;
+    animation: headerAnim 0.5s 0s ease both;
+    background: rgb(255 255 255 / 84%);
+  }
+  
+  .headerBg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+  
+  .headerBackBg {
+    position: fixed;
+    /* background: url('../../../assets/images/landingheader.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 62px;
+  }
+  
+  .headerLogo {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    margin: 0.6em 0.7em;
+  }
+  
+  .imagelogo {
+    position: relative;
+    margin: 0vw 0.3vw;
+    max-width: 100%;
+    width: 80%;
+  }
+  
